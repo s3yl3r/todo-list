@@ -1,2 +1,2 @@
 # todo-list
-todo list app
+Simple todo-list app in react.
