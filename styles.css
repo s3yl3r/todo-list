@@ -1,0 +1,92 @@
+html {
+    /*background-image: linear-gradient(to right top, #223b49, #205340, #205340, #223b49);*/
+    height: 100%;
+}
+
+body {
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.25px;
+}
+
+#fodoboz {
+    margin: auto;
+    max-width: 500px;
+}
+
+#cim {
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 50px;
+    color: #175e5e;
+}
+
+#felso {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #032014;
+    border-radius: 14px;
+}
+
+#inputdoboz {
+    width: 100%;
+    display: flex;
+}
+
+#input-mezo {
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    font-size: 18px;
+    display: block;
+    outline: none;
+    border-radius: 8px;
+}
+
+#add-gomb {
+    padding: 10px 40px;
+    margin: 10px auto;
+    border: 1px solid #032014;
+    border-radius: 8px;
+    background-image: linear-gradient(to right top, #175e5e, #5a867d);
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+#listakeret {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 80%;
+    max-width: 500px;
+    background-image: linear-gradient(to right top, #175e5e, #5a867d);
+    border: 1px solid #032014;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin: 6px;
+    font-size: 14px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.kitorol {
+    font-size: 18px;
+    color: #032014;
+    font-weight: 700;
+}
+
+.kitorol:hover {
+    text-shadow: 1px 1px 6px #93c2ae;
+    cursor: pointer;
+}
